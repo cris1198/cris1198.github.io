@@ -1,6 +1,6 @@
 ---
 layout: project
-title: All Projects
+title: All Machine Lab
 excerpt: "A List of Projects"
 comments: false
 ---

