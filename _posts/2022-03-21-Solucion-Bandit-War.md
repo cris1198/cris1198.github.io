@@ -2,7 +2,7 @@
 layout: post
 title: "Solución a Bandit de Over The Wire, niveles 0-11"
 date: 2022-10-20
-excerpt: "Bandit es un wargame de OverTheWire, en este post solucionaremos hasta el nivel 13 de los ejercicios propuestos"
+excerpt: "Bandit es un wargame de OverTheWire donde podemos pracitcar nuestra habilidades, en este post solucionaremos hasta el nivel 11 de los ejercicios propuestos"
 tags: [Capture The Flag]
 comments: true
 ---

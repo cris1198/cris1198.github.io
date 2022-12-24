@@ -2,7 +2,7 @@
 layout: post
 title: "Compartir una carpeta desde Windows a Linux virtualizado"
 date: 2022-10-20
-excerpt: "Creamos un punto de montaje en la maquina virtualizada linux para acceder a carpetas de Windows"
+excerpt: "El tener una carpeta compartida entre ambas maquinas nos permite realizar un mejor trabajo ya que todo lo que tengamos en esa carpeta sera de facil acceso por ambas partes, configurandolo con sencillos pasos."
 tags: [linux]
 comments: true
 ---
@@ -40,16 +40,20 @@ sudo apt install open-vm-tools-desktop
 3. Creamos una carpeta llamada 'compartiddo' o el nombre que gusten.
 
 ### Paso 5
-Para montar la carpeta 'compartiddo' con la carpeta de Windows, debemos usar el siguiente comando.
+Para montar la carpeta 'compartido' con la carpeta de Windows, debemos usar el siguiente comando.
 
 {% highlight bash %}
 mount -t fuse.vmhgfs-fuse .host:/ /mnt/compartido -o allow_other
 {% endhighlight %}
 
-#### LIsto, con estos sencillos pasos ya tenemos una carpeta compartida entre ambas maquinas.
+**Advertencia** Si después de apagar o reiniciar us maquina la carpeta compartida desaparece, vuelve a ejecutar el comando de arriba. 
+{: .notice}
+
+#### Listo, con estos sencillos pasos ya tenemos una carpeta compartida entre ambas máquinas.
 
 ### Desmontar la carpeta
 Para poder desmontar la carpeta compartida utiliza el siguiente comando.
 {% highlight bash %}
 umount -t fuse.vmhgfs-fuse /mnt/compartido
 {% endhighlight %}
+
