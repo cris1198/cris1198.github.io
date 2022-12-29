@@ -1,6 +1,8 @@
 # Site
 title:              Hack Chiri
-bio:                'Hi, Welcome to me page'
+bio:                'Este sitio web tiene como propósito poder ayudar 
+a todas aquellas personas que deseen aprender de ciberseguridad con mis tips 
+y notas que he ido documentando.'
 description:        "Bienvenido! mi nombre es Cristian Chiri, conoce un poco mas de mi y de mis trabajos."
 reading_time:       false
 words_per_minute:   200
@@ -20,7 +22,7 @@ kramdown:
   entity_output:    as_char
   toc_levels:       1..6
   enable_coderay:   false
-mathjax:            true
+mathjax:            false
 sass:
   sass_dir:         _sass
   style:            compressed
@@ -37,7 +39,7 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              olivergg.co@gmail.com
+email:              cristian.chiri.ch@gmail.com
 #twitter:            username
 #facebook:           username
 #github-url:         username

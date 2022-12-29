@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Capture the flag - esteganografía en imagenes y audio | Try Hack Me"
-date: 2022-10-20
+date: 2022-11-20
 excerpt: "Solucionaremos los ejercicios propuesto por la pagina de Try Hack Me con herramientas que nos ayuden a extraer datos de imagenes y audios."
 tags: [Capture The Flag]
 comments: true

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: All Machine Lab
+title: Solución de máquinas en laboratorio
 excerpt: "A List of Projects"
 comments: false
 ---
