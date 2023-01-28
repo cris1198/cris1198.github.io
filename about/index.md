@@ -12,16 +12,16 @@ Uno de mis muchos objetivos es poder trabajar como pentester, por el cual he dec
 
 ## Certificaciones 
 
-* Preparación Para la Certificación en la Norma ISO 27001 Diciembre 
-* Introducción a Seguridad Informática Diciembre
-* Fundamentos de Ciberseguridad Noviembre 
-* Ethical Hacking - Red Team 2da Edición Octubre 
-* Programa Pentester Mentor Junior Agosto 
-* Ethical Hacking - Red Team Junio
-* Linux Para Pentesters Junio
-* Fundamentos de Redes Junio
-* Taller básico de ciberdefensa Junio 
-* Redes Informáticas de Internet Febrero 
+* Preparación Para la Certificación en la Norma ISO 27001
+* Introducción a Seguridad Informática 
+* Fundamentos de Ciberseguridad
+* Ethical Hacking - Red Team 2da Edición 
+* Programa Pentester Mentor Junior
+* Ethical Hacking - Red Team 
+* Linux Para Pentesters 
+* Fundamentos de Redes 
+* Taller básico de ciberdefensa 
+* Redes Informáticas de Internet
 * Universidad Hacking. Todo en Ciberseguridad
 * Preparación Para la Certificación en la Norma 
 * Universidad Hacking. Todo en Ciberseguridad
