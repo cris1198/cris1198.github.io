@@ -11,30 +11,30 @@ Mi nombre es **Cristian Chiri**, estudiante de la carrera de Ingeniería de Sist
 Uno de mis muchos objetivos es poder trabajar como pentester, por el cual he decidido mantenerme en constante aprendizaje, adquiriendo nuevos conocimientos y al mismo tiempo ponerlos en prácticas en entornos controlados, resolver retos en diferentes plataformas como Hack The Box, Try Hack Me y muchas más. Me considero una persona proactiva capaz de resolver cualquier problema de manera creativa.
 
 ## Certificaciones 
-* Pentester Mentor Junior
-* Preparación Para la Certificación en la Norma ISO 27001
+
+* Preparación Para la Certificación en la Norma ISO 27001 Diciembre 
+* Introducción a Seguridad Informática Diciembre
+* Fundamentos de Ciberseguridad Noviembre 
+* Ethical Hacking - Red Team 2da Edición Octubre 
+* Programa Pentester Mentor Junior Agosto 
+* Ethical Hacking - Red Team Junio
+* Linux Para Pentesters Junio
+* Fundamentos de Redes Junio
+* Taller básico de ciberdefensa Junio 
+* Redes Informáticas de Internet Febrero 
 * Universidad Hacking. Todo en Ciberseguridad
-* Ethical Hacking - Red Team
-* Fundamentos de ciberseguridad
-* Linux Para Pentesters
-* Fundamentos de Redes para Pentesters
-* Redes Informáticas de Internet
-* Introducción a la ciberseguridad
-* Taller Básico Ciberdefensa
+* Preparación Para la Certificación en la Norma 
+* Universidad Hacking. Todo en Ciberseguridad
 * Curso de PHP
-* Introducción en Java
-* Curso de Introducción a la Terminal y Línea de Comandos
-* Participación como Líder de equipo en el 1.er Retiro Terapéutico
 
 
 ## Skill
-* Linux, Windows
-* Herramientas: Wireshark, Metasploit, Nessus, Burpsuite, Nikto, Nmap, Docker, IDS snort, github, etc.
-* Técnicas: OSINT, Phishing, Análisis de vulnerabilidades, Escalar privilegios, Persistencia, Explotación
-* Norma ISO 27001
 * Metodología de seguridad NIST
-* Lenguajes de programacion: Java, Python, Php
-* Herramientas de forense: FtkImager, Autopsy, Volatility, Exiftool 
-* Conocimiento en realizar informes de pentesting
-* Framework web: Django, Laravel
-
+* Herramientas: Wireshark, Metasploit, Nessus, Burpsuite, Nikto, Nmap, Gobuster, etc.
+* Técnicas: OSINT, Phishing, Análisis de vulnerabilidades, Escalar privilegios, Persistencia, Análisis de Malware, Explotación de vulnerabilidades, Craking de contraseñas.
+* Herramientas de forense: FtkImager, Autopsy, Volatility, Exiftool.
+* Docker, IDS, github.
+* Linux nivel intermedio-avanzado.
+* Conocimiento en realizar informes de pentesting.
+* Lenguajes de programación: Java, Python, Php.
+* Framework web: Django, Laravel.
