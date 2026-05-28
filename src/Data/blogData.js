@@ -16,7 +16,7 @@ export const blogPosts = [
   },
   {
     id: 2,
-    title: "Consectetur Adipiscing Elit Sed Do",
+    title: "123123123",
     description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
     image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
     slug: "lorem-ipsum-2",
