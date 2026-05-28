@@ -1,7 +1,7 @@
 export const blogPosts = [
   {
     id: 1,
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "123123123123",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
     slug: "lorem-ipsum-1",
