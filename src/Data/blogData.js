@@ -91,7 +91,7 @@ export const blogPosts = [
   },
   {
     id: 7,
-    title: "Nemo Enim Ipsam Voluptatem",
+    title: "12121212",
     description: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
     image: "https://images.unsplash.com/photo-1559526324-593bc073d938?q=80&w=800",
     slug: "lorem-ipsum-7",
