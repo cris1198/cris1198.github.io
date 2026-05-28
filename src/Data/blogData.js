@@ -1,9 +1,9 @@
 export const blogPosts = [
   {
     id: 1,
-    title: "123123123123",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
+    title: "Abusando GenericWrite en Active Directory",
+    description: "En este laboratorio de Active Directory demuestro cómo un permiso mal configurado como GenericWrite puede permitir que un usuario común escale privilegios hasta Domain Admin",
+    image: "../assets/img/headerImg.jpg",
     slug: "lorem-ipsum-1",
     date: "October 23, 2025",
     author: "John Doe",
