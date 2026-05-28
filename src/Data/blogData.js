@@ -5,16 +5,16 @@ export const blogPosts = [
   {
     
     id: 1,
-    title: "Abusando GenericWrite en Active Directory",
+    title: "Explotacion de permisos GenericWrite en Active Directory: escalación de privilegios.",
     description: "En este laboratorio de Active Directory demuestro cómo un permiso mal configurado como GenericWrite puede permitir que un usuario común escale privilegios hasta Domain Admin",
     image: headerImg,
-    slug: "lorem-ipsum-1",
-    date: "October 23, 2025",
-    author: "John Doe",
+    slug: "Active Directory",
+    date: "Febrero 23, 2025",
+    author: "Cristian",
     content: `
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Integer convallis sapien in malesuada faucibus.</p>
-      <p>Morbi eget mi nec orci varius dignissim. Curabitur venenatis magna non aliquam tincidunt.</p>
-      <p>Donec lacinia magna ut faucibus fringilla. Suspendisse potenti. Phasellus convallis nisl non lorem elementum porta.</p>
+      <p>En este laboratorio de Active Directory se demuestra cómo un permiso mal configurado como GenericWrite puede permitir que un usuario estándar escale privilegios hasta Domain Admin. Utilizando BloodHound y CrackMapExec, se analiza la enumeración del entorno, identificación de rutas de ataque y abuso de ACLs inseguras en un entorno AD de laboratorio.</p>
+      <p>Abusando GenericWrite en Active Directory</p>
+      <p>Las configuraciones incorrectas de permisos en Active Directory representan uno de los riesgos más críticos dentro de entornos corporativos. Un permiso aparentemente “inofensivo” como GenericWrite puede convertirse en una vía directa para comprometer cuentas privilegiadas y obtener control total del dominio.</p>
       <p>Aliquam erat volutpat. Curabitur porta eros eu felis ultrices viverra.</p>
     `
   },
