@@ -1,4 +1,5 @@
 import headerImg from "../assets/img/headerImg.jpg";
+import headerImg from "../assets/img/aboutheader.jpg";
 
 export const blogPosts = [
   {
@@ -21,7 +22,7 @@ export const blogPosts = [
     id: 2,
     title: "123123123",
     description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
+    image: aboutheader,
     slug: "lorem-ipsum-2",
     date: "October 10, 2025",
     author: "Jane Smith",
