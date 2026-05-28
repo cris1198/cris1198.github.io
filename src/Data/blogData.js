@@ -1,5 +1,5 @@
 import headerImg from "../assets/img/headerImg.jpg";
-import headerImg from "../assets/img/aboutheader.jpg";
+import aboutheader from "../assets/img/aboutheader.jpg";
 
 export const blogPosts = [
   {
@@ -37,7 +37,7 @@ export const blogPosts = [
     id: 3,
     title: "Ut Enim Ad Minim Veniam",
     description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
+    image: headerImg,
     slug: "lorem-ipsum-3",
     date: "October 2, 2025",
     author: "Alice Brown",
