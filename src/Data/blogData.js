@@ -13,9 +13,14 @@ export const blogPosts = [
     author: "Cristian",
     content: `
       <p>En este laboratorio de Active Directory se demuestra cómo un permiso mal configurado como GenericWrite puede permitir que un usuario estándar escale privilegios hasta Domain Admin. Utilizando BloodHound y CrackMapExec, se analiza la enumeración del entorno, identificación de rutas de ataque y abuso de ACLs inseguras en un entorno AD de laboratorio.</p>
-      <p>Abusando GenericWrite en Active Directory</p>
+      <hr>
+      <b>Abusando GenericWrite en Active Directory</b>
       <p>Las configuraciones incorrectas de permisos en Active Directory representan uno de los riesgos más críticos dentro de entornos corporativos. Un permiso aparentemente “inofensivo” como GenericWrite puede convertirse en una vía directa para comprometer cuentas privilegiadas y obtener control total del dominio.</p>
       <p>Aliquam erat volutpat. Curabitur porta eros eu felis ultrices viverra.</p>
+      <code>GenericWrite</code>
+      <pre><code>
+      crackmapexec smb 192.168.1.10 -u cristian -p Password123
+      </code></pre>
     `
   },
   {
